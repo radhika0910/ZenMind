@@ -112,8 +112,11 @@ fun SignUpScreen(onLoginClick: () -> Unit) {
         Text(
             text = "Already have an account? Login",
             color = Color.Blue,
-            modifier = Modifier.clickable { onLoginClick() }
+            modifier = Modifier
+                .clickable { onLoginClick() } // Handle navigation or action
+                .padding(16.dp)
         )
+
     }
 }
 

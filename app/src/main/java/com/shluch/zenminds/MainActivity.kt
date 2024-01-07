@@ -11,6 +11,7 @@ import androidx.navigation.compose.NavHost
 import androidx.navigation.compose.composable
 import androidx.navigation.compose.rememberNavController
 import screens.HomePage
+import screens.SignUpScreen
 
 class MainActivity : ComponentActivity() {
     private val viewModel: SplashViewModel by viewModels()
@@ -30,9 +31,9 @@ class MainActivity : ComponentActivity() {
 @Composable
 fun ZenMind(navController: NavHostController) {
     val navController = rememberNavController()
-    NavHost(navController = navController, startDestination = "HomePage") {
-        composable("HomePage") {
-            HomePage {  navController.navigate("") }
+    NavHost(navController = navController, startDestination = "SignUpScreen") {
+        composable("SignUpScreen") {
+            SignUpScreen {  navController.navigate("LoginPage") }
         }
     }
 }
