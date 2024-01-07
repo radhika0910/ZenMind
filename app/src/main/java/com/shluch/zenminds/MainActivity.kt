@@ -10,6 +10,7 @@ import androidx.navigation.NavHostController
 import androidx.navigation.compose.NavHost
 import androidx.navigation.compose.composable
 import androidx.navigation.compose.rememberNavController
+import screens.HomePage
 
 class MainActivity : ComponentActivity() {
     private val viewModel: SplashViewModel by viewModels()

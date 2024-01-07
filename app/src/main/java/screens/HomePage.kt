@@ -1,4 +1,4 @@
-package com.shluch.zenminds
+package screens
 
 import androidx.compose.foundation.layout.fillMaxSize
 import androidx.compose.material3.MaterialTheme

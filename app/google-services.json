@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "44476509560",
+    "project_id": "zenminds-86eeb",
+    "storage_bucket": "zenminds-86eeb.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:44476509560:android:1e2272b741b3f99b19ec8d",
+        "android_client_info": {
+          "package_name": "com.shluch.zenminds"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBA5iPc4YIqljO0xqgs6RuK8XPKadFITrg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
