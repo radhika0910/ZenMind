@@ -11,6 +11,7 @@ import androidx.navigation.compose.NavHost
 import androidx.navigation.compose.composable
 import androidx.navigation.compose.rememberNavController
 import screens.HomePage
+import screens.LoginPage
 import screens.SignUpScreen
 
 class MainActivity : ComponentActivity() {
@@ -34,6 +35,9 @@ fun ZenMind(navController: NavHostController) {
     NavHost(navController = navController, startDestination = "SignUpScreen") {
         composable("SignUpScreen") {
             SignUpScreen {  navController.navigate("LoginPage") }
+        }
+        composable("LoginPage") {
+            LoginPage { navController.navigate("") }
         }
     }
 }
